@@ -1,0 +1,503 @@
+{
+    "Galatasaray": {
+        "slug": "galatasaray-istanbul",
+        "id": 141,
+        "baslangic_yil": 1990
+    },
+    "Fenerbahçe": {
+        "slug": "fenerbahce-istanbul",
+        "id": 36,
+        "baslangic_yil": 1990
+    },
+    "Beşiktaş": {
+        "slug": "besiktas-jk",
+        "id": 114,
+        "baslangic_yil": 1990
+    },
+    "Real Madrid": {
+        "slug": "real-madrid",
+        "id": 418,
+        "baslangic_yil": 1990
+    },
+    "Barcelona": {
+        "slug": "fc-barcelona",
+        "id": 131,
+        "baslangic_yil": 1990
+    },
+    "Inter": {
+        "slug": "inter-mailand",
+        "id": 46,
+        "baslangic_yil": 1990
+    },
+    "Chelsea": {
+        "slug": "fc-chelsea",
+        "id": 631,
+        "baslangic_yil": 1990
+    },
+    "Manchester United": {
+        "slug": "manchester-united",
+        "id": 985,
+        "baslangic_yil": 1990
+    },
+    "Liverpool": {
+        "slug": "fc-liverpool",
+        "id": 31,
+        "baslangic_yil": 1990
+    },
+    "Manchester City": {
+        "slug": "manchester-city",
+        "id": 281,
+        "baslangic_yil": 1990
+    },
+    "Arsenal": {
+        "slug": "fc-arsenal",
+        "id": 11,
+        "baslangic_yil": 1990
+    },
+    "Tottenham": {
+        "slug": "tottenham-hotspur",
+        "id": 148,
+        "baslangic_yil": 1990
+    },
+    "Bayern Münih": {
+        "slug": "fc-bayern-munchen",
+        "id": 27,
+        "baslangic_yil": 1990
+    },
+    "Borussia Dortmund": {
+        "slug": "borussia-dortmund",
+        "id": 16,
+        "baslangic_yil": 1990
+    },
+    "Juventus": {
+        "slug": "juventus-turin",
+        "id": 506,
+        "baslangic_yil": 1990
+    },
+    "AC Milan": {
+        "slug": "ac-mailand",
+        "id": 5,
+        "baslangic_yil": 1990
+    },
+    "Napoli": {
+        "slug": "ssc-neapel",
+        "id": 6195,
+        "baslangic_yil": 1990
+    },
+    "Paris Saint-Germain": {
+        "slug": "fc-paris-saint-germain",
+        "id": 583,
+        "baslangic_yil": 1990
+    },
+    "Trabzonspor": {
+        "slug": "trabzonspor",
+        "id": 449,
+        "baslangic_yil": 1990
+    },
+    "Başakşehir": {
+        "slug": "istanbul-basaksehir-fk",
+        "id": 6890,
+        "baslangic_yil": 1990
+    },
+    "Samsunspor": {
+        "slug": "samsunspor",
+        "id": 152,
+        "baslangic_yil": 1990
+    },
+    "Çaykur Rizespor": {
+        "slug": "caykur-rizespor",
+        "id": 126,
+        "baslangic_yil": 1990
+    },
+    "Göztepe": {
+        "slug": "goztepe",
+        "id": 1467,
+        "baslangic_yil": 1990
+    },
+    "Antalyaspor": {
+        "slug": "antalyaspor",
+        "id": 589,
+        "baslangic_yil": 1990
+    },
+    "Gaziantep FK": {
+        "slug": "gaziantep-fk",
+        "id": 2832,
+        "baslangic_yil": 1990
+    },
+    "Alanyaspor": {
+        "slug": "alanyaspor",
+        "id": 11282,
+        "baslangic_yil": 1990
+    },
+    "Konyaspor": {
+        "slug": "konyaspor",
+        "id": 2293,
+        "baslangic_yil": 1990
+    },
+    "Adana Demirspor": {
+        "slug": "adana-demirspor",
+        "id": 3840,
+        "baslangic_yil": 1990
+    },
+    "Atletico Madrid": {
+        "slug": "atletico-madrid",
+        "id": 13,
+        "baslangic_yil": 1990
+    },
+    "Sevilla": {
+        "slug": "fc-sevilla",
+        "id": 368,
+        "baslangic_yil": 1990
+    },
+    "Kasımpaşa": {
+        "slug": "kasimpasa",
+        "id": 10484,
+        "baslangic_yil": 1990
+    },
+    "Kocaelispor": {
+        "slug": "kocaelispor",
+        "id": 120,
+        "baslangic_yil": 1990
+    },
+    "Çorum FK": {
+        "slug": "corum-fk",
+        "id": 37951,
+        "baslangic_yil": 1990
+    },
+    "Amed SK": {
+        "slug": "amed-sk",
+        "id": 12382,
+        "baslangic_yil": 1990
+    },
+    "Gençlerbirliği": {
+        "slug": "genclerbirligi-ankara",
+        "id": 820,
+        "baslangic_yil": 1990
+    },
+    "Erzurumspor": {
+        "slug": "buyuksehir-belediye-erzurumspor",
+        "id": 39722,
+        "baslangic_yil": 1990
+    },
+    "Eyüpspor": {
+        "slug": "eyupspor",
+        "id": 7160,
+        "baslangic_yil": 1990
+    },
+    "Bayer Leverkusen": {
+        "slug": "bayer-04-leverkusen",
+        "id": 15,
+        "baslangic_yil": 1990
+    },
+    "Aston Villa": {
+        "slug": "aston-villa",
+        "id": 405,
+        "baslangic_yil": 1990
+    },
+    "Fiorentina": {
+        "slug": "ac-florenz",
+        "id": 430,
+        "baslangic_yil": 1990
+    },
+    "Roma": {
+        "slug": "as-rom",
+        "id": 12,
+        "baslangic_yil": 1990
+    },
+    "Porto": {
+        "slug": "fc-porto",
+        "id": 720,
+        "baslangic_yil": 1990
+    },
+    "Benfica": {
+        "slug": "benfica-lissabon",
+        "id": 294,
+        "baslangic_yil": 1990
+    },
+    "Club Brugge": {
+        "slug": "fc-brugge",
+        "id": 2282,
+        "baslangic_yil": 1990
+    },
+    "Atalanta": {
+        "slug": "atalanta-bergamo",
+        "id": 800,
+        "baslangic_yil": 1990
+    },
+    "Sporting Lisbon": {
+        "slug": "sporting-lissabon",
+        "id": 336,
+        "baslangic_yil": 1990
+    },
+    "Real Betis": {
+        "slug": "real-betis-sevilla",
+        "id": 150,
+        "baslangic_yil": 1990
+    },
+    "PSV": {
+        "slug": "psv-eindhoven",
+        "id": 383,
+        "baslangic_yil": 1990
+    },
+    "E. Frankfurt": {
+        "slug": "eintracht-frankfurt",
+        "id": 24,
+        "baslangic_yil": 1990
+    },
+    "Olympiakos": {
+        "slug": "olympiakos-piraus",
+        "id": 683,
+        "baslangic_yil": 1990
+    },
+    "LOSC Lille": {
+        "slug": "losc-lille",
+        "id": 1082,
+        "baslangic_yil": 1990
+    },
+    "Shaktar Donetsk": {
+        "slug": "shakhtar-donetsk",
+        "id": 660,
+        "baslangic_yil": 1990
+    },
+    "Lazio": {
+        "slug": "lazio-rom",
+        "id": 398,
+        "baslangic_yil": 1990
+    },
+    "AZ Alkmaar": {
+        "slug": "az-alkmaar",
+        "id": 1090,
+        "baslangic_yil": 1990
+    },
+    "Bodo Glimt": {
+        "slug": "fk-bodo-glimt",
+        "id": 501,
+        "baslangic_yil": 1990
+    },
+    "West Ham United": {
+        "slug": "west-ham-united",
+        "id": 379,
+        "baslangic_yil": 1990
+    },
+    "Real Sociedad": {
+        "slug": "real-sociedad-san-sebastian",
+        "id": 681,
+        "baslangic_yil": 1990
+    },
+    "Union Saint-Gilloise": {
+        "slug": "royale-union-saint-gilloise",
+        "id": 3948,
+        "baslangic_yil": 1990
+    },
+    "Braga": {
+        "slug": "sc-braga",
+        "id": 1075,
+        "baslangic_yil": 1990
+    },
+    "Feyenoord": {
+        "slug": "feyenoord-rotterdam",
+        "id": 234,
+        "baslangic_yil": 1990
+    },
+    "Olympique Lyon": {
+        "slug": "olympique-lyon",
+        "id": 1041,
+        "baslangic_yil": 1990
+    },
+    "Leipzig": {
+        "slug": "rasenballsport-leipzig",
+        "id": 23826,
+        "baslangic_yil": 1990
+    },
+    "Kopenhag": {
+        "slug": "fc-kopenhagen",
+        "id": 190,
+        "baslangic_yil": 1990
+    },
+    "Monaco": {
+        "slug": "as-monaco",
+        "id": 162,
+        "baslangic_yil": 1990
+    },
+    "Rangers": {
+        "slug": "glasgow-rangers",
+        "id": 124,
+        "baslangic_yil": 1990
+    },
+    "Athletic Bilbao": {
+        "slug": "athletic-bilbao",
+        "id": 621,
+        "baslangic_yil": 1990
+    },
+    "Celtic": {
+        "slug": "celtic-glasgow",
+        "id": 371,
+        "baslangic_yil": 1990
+    },
+    "Marsilya": {
+        "slug": "olympique-marseille",
+        "id": 244,
+        "baslangic_yil": 1990
+    },
+    "Ajax": {
+        "slug": "ajax-amsterdam",
+        "id": 610,
+        "baslangic_yil": 1990
+    },
+    "Villareal": {
+        "slug": "fc-villarreal",
+        "id": 1050,
+        "baslangic_yil": 1990
+    },
+    "Kızılyıldız": {
+        "slug": "roter-stern-belgrad",
+        "id": 159,
+        "baslangic_yil": 1990
+    },
+    "Newcastle United": {
+        "slug": "newcastle-united",
+        "id": 762,
+        "baslangic_yil": 1990
+    },
+    "Anderlecht": {
+        "slug": "rsc-anderlecht",
+        "id": 58,
+        "baslangic_yil": 1990
+    },
+    "Stuttgart": {
+        "slug": "vfb-stuttgart",
+        "id": 79,
+        "baslangic_yil": 1990
+    },
+    "Nottingham Forest": {
+        "slug": "nottingham-forest",
+        "id": 703,
+        "baslangic_yil": 1990
+    },
+    "Basel": {
+        "slug": "fc-basel-1893",
+        "id": 26,
+        "baslangic_yil": 1990
+    },
+    "Young Boys": {
+        "slug": "bsc-young-boys",
+        "id": 452,
+        "baslangic_yil": 1990
+    },
+    "Rennes": {
+        "slug": "fc-stade-rennes",
+        "id": 273,
+        "baslangic_yil": 1990
+    },
+    "Crystal Palace": {
+        "slug": "crystal-palace",
+        "id": 873,
+        "baslangic_yil": 1990
+    },
+    "Brighton": {
+        "slug": "brighton-amp-hove-albion",
+        "id": 1237,
+        "baslangic_yil": 1990
+    },
+    "Dinamo Kiev": {
+        "slug": "dynamo-kiew",
+        "id": 338,
+        "baslangic_yil": 1990
+    },
+    "Ankaragücü": {
+        "slug": "mke-ankaragucu",
+        "id": 868,
+        "baslangic_yil": 1990
+    },
+    "Pendikspor": {
+        "slug": "pendikspor",
+        "id": 3209,
+        "baslangic_yil": 1990
+    },
+    "İstanbulspor": {
+        "slug": "istanbulspor",
+        "id": 924,
+        "baslangic_yil": 1990
+    },
+    "Ümraniyespor": {
+        "slug": "umraniyespor",
+        "id": 24245,
+        "baslangic_yil": 1990
+    },
+    "Yeni Malatyaspor": {
+        "slug": "yeni-malatyaspor",
+        "id": 19789,
+        "baslangic_yil": 1990
+    },
+    "Altay": {
+        "slug": "altay-sk",
+        "id": 2375,
+        "baslangic_yil": 1990
+    },
+    "Giresunspor": {
+        "slug": "giresunspor",
+        "id": 11688,
+        "baslangic_yil": 1990
+    },
+    "Akhisarspor": {
+        "slug": "akhisarspor",
+        "id": 19771,
+        "baslangic_yil": 1990
+    
+    },
+    "Kardemir Karabükspor": {
+        "slug": "kardemir-karabukspor",
+        "id": 1506,
+        "baslangic_yil": 1990
+    },
+    "Bursaspor": {
+        "slug": "bursaspor",
+        "id": 20,
+        "baslangic_yil": 1990
+    },
+    "Adanaspor": {
+        "slug": "adanaspor",
+        "id": 6,
+        "baslangic_yil": 1990
+    },
+    "Kayserispor": {
+        "slug": "kayserispor",
+        "id": 3205,
+        "baslangic_yil": 1990
+    },
+    "Fatih Karagümrük": {
+        "slug": "fatih-karagumruk",
+        "id": 6646,
+        "baslangic_yil": 1990
+    },
+    "Hatayspor": {
+        "slug": "hatayspor",
+        "id": 7775,
+        "baslangic_yil": 1990
+    },
+    "Sivasspor": {
+        "slug": "sivasspor",
+        "id": 2381,
+        "baslangic_yil": 1990
+    },
+    "Eskişehirspor": {
+        "slug": "eskisehirspor",
+        "id": 825,
+        "baslangic_yil": 1990
+    },
+    "Mersin İdmanyurdu": {
+        "slug": "mersin-idmanyurdu",
+        "id": 3216,
+        "baslangic_yil": 1990
+    },
+    "Denizlispor": {
+        "slug": "denizlispor",
+        "id": 833,
+        "baslangic_yil": 1990
+    },
+    "Balıkesirspor": {
+        "slug": "balikesirspor",
+        "id": 20698,
+        "baslangic_yil": 1990
+    }
+}

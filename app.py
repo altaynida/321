@@ -83,11 +83,11 @@ def butun_oyunculari_birlestir():
         'Takim': lambda x: list(dict.fromkeys(x)), 
         'Pozisyon': 'first',
         'Uyruk': 'first',
-        'Ilk_Yil': 'min' # Oyuncunun forma giydiği en eski yılı buluyoruz
+        'Ilk_Yil': 'min'
     }).reset_index()
     
-    # 2010 FİLTRESİ: Sadece 2010 ve sonrasında kariyerine başlamış oyuncular oyunlara dahil edilir
-    return oyuncu_gruplu[(oyuncu_gruplu['Takim'].apply(len) > 1) & (oyuncu_gruplu['Ilk_Yil'] >= 2000)]
+    # Oyunlar için 2004 ve sonrasına başlayan oyuncu filtresi
+    return oyuncu_gruplu[(oyuncu_gruplu['Takim'].apply(len) > 1) & (oyuncu_gruplu['Ilk_Yil'] >= 2004)]
 
 @st.cache_data(show_spinner=False)
 def logo_base64_getir(takim_adi):
@@ -120,17 +120,25 @@ sayfa = st.sidebar.radio("Gitmek istediğiniz bölümü seçin:",
                          ])
 
 # ==========================================
-# 1. BÖLÜM: ARAMA MOTORU (Filtresiz - Tüm Yıllar)
+# 1. BÖLÜM: ARAMA MOTORU (Numaralandırılmış Liste)
 # ==========================================
 if sayfa == "🔍 Arama Motoru":
     st.title("⚽ Ortak Topçular Bulucu")
     st.caption("Karşılaştırmak istediğiniz iki takımı seçin, gelmiş geçmiş ortak oyuncuları listeleyelim!")
 
+    # Takımların başına 1'den 100'e kadar numara ekleyip sözlük oluşturuyoruz
+    numarali_takim_dict = {f"{idx+1}. {takim}": takim for idx, takim in enumerate(takim_listesi)}
+    gorunen_takimlar = list(numarali_takim_dict.keys())
+
     col1, col2 = st.columns(2)
-    with col1: input_takim_1 = st.selectbox("1. Takım", takim_listesi, index=None, placeholder="Bir takım seçin")
+    with col1: 
+        secilen_gosterge_1 = st.selectbox("1. Takım", gorunen_takimlar, index=None, placeholder="Bir takım seçin")
+        input_takim_1 = numarali_takim_dict[secilen_gosterge_1] if secilen_gosterge_1 else None
+        
     with col2: 
-        kalan_liste = [t for t in takim_listesi if t != input_takim_1] if input_takim_1 else takim_listesi
-        input_takim_2 = st.selectbox("2. Takım", kalan_liste, index=None, placeholder="Bir takım seçin")
+        kalan_gosterge_listesi = [t for t in gorunen_takimlar if numarali_takim_dict[t] != input_takim_1] if input_takim_1 else gorunen_takimlar
+        secilen_gosterge_2 = st.selectbox("2. Takım", kalan_gosterge_listesi, index=None, placeholder="Bir takım seçin")
+        input_takim_2 = numarali_takim_dict[secilen_gosterge_2] if secilen_gosterge_2 else None
 
     st.markdown("<br>", unsafe_allow_html=True)
     ara_butonu = st.button("Ortak Oyuncuları Ara", type="primary")
